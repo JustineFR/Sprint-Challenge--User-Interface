@@ -66,6 +66,39 @@ p {
     line-height: 1.4;
 }
 
+
+/*  code */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    margin-top: 20px;
+}
+
+
+.logo {
+    display: flex;ß
+}
+
+.main-img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+ 
+
+header div {
+    display: flex;
+    justify-content: center;
+}
+
+header nav a {
+    padding: 35px;
+    text-decoration: none;
+    color: black;   
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,7 +134,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -111,6 +144,47 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -126,6 +200,61 @@ p {
     padding-right: 0;
 }
 
+
+
+
+/* ABOUT PAGE */
+
+.main-container h1 {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-container p {
+    margin-bottom: 20px;
+    
+}
+
+.section-one {
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+.section-two, .section-three {
+	display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+
+.section-two div, .section-three div  {
+    border-bottom: 1px dashed black; 
+}
+
+button {
+    margin: 20px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: white;
+    font-size: 16px;
+}
+
+ button:hover {
+    background: black;
+    color: white;
+}
+
+
+
+
+
+/*  */
 footer {
     width: 100%;
     background: black;
