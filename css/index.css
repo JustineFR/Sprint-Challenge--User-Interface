@@ -78,13 +78,13 @@ header {
 
 
 .logo {
-    display: flex;
-    align-items: center;
+    display: flex;ß
 }
 
 .main-img {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
  
 
@@ -98,8 +98,6 @@ header nav a {
     text-decoration: none;
     color: black;   
 }
-
-
 
 .container {
     width: 800px;
@@ -208,7 +206,8 @@ header nav a {
 /* ABOUT PAGE */
 
 .main-container h1 {
-    padding: 20px 0;
+    padding-top: 10px;
+    font-weight: bold;
 }
 
 .main {
@@ -233,8 +232,8 @@ header nav a {
     
 }
 
-.section-two div, .section-three div {
-    border-bottom: 1px dashed black;
+.section-two div, .section-three div  {
+    border-bottom: 1px dashed black; 
 }
 
 button {
@@ -244,9 +243,12 @@ button {
     border-radius: 10px;
     background: white;
     font-size: 16px;
-    /* font-weight: bold; */
 }
 
+ button:hover {
+    background: black;
+    color: white;
+}
 
 
 
